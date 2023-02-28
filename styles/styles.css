@@ -69,11 +69,13 @@ main {
     padding: 27px 0 0 28px;
     position: relative;
     transition: 1s;
+    overflow-x: hidden;
 }
 
 .box::before {
     content: "";
     position: absolute;
+    width: 100%;
     top: 0;
     bottom: 218.45px;
     right: 0;
